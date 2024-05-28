@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    padding: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(#f2f4ef,#c2e3f4,#c2e3f4,#c2e3f4); 
+}
+
+footer img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+

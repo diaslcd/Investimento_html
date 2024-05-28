@@ -1,0 +1,54 @@
+nav ul {
+  list-style-type: none;
+  margin: 0 70px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative; /* Adicionando posição relativa para submenu */
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #EFB730;
+  text-shadow: 1px 1px 1px black;
+  transition: background-color 0.3s; /* Adicionando transição */
+}
+
+nav ul li:hover {
+  background-color: #f0f0f0;
+}
+
+nav ul li.submenu ul {
+  display: none;
+  position: absolute;
+  background-color: #f2f4ef;
+  transition: opacity 0.3s, visibility 0.3s; /* Adicionando transição */
+  opacity: 0; /* Ocultando inicialmente o submenu */
+  visibility: hidden; /* Ocultando inicialmente o submenu */
+  z-index:  1; /* Forçando o submenu para ficar por cima dos outros elementos */
+  margin: 0 16px;
+}
+
+
+nav ul li.submenu:hover ul {
+  display: block;
+  opacity: 1; /* Exibindo o submenu */
+  visibility: visible; /* Exibindo o submenu */
+}
+
+nav ul li.submenu ul li {
+  display: block;
+}
+
+nav ul li.submenu ul li a {
+  padding: 8px 20px;
+}
+
+nav ul li.submenu ul li:hover {
+  background-color: #e0e0e0;
+}

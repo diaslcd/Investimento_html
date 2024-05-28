@@ -1,0 +1,163 @@
+html{
+    font-family: consolas;
+    /*background-color: #f2f4ef;
+    margin-left: 100px;*/
+    background-image: linear-gradient(#c2e3f4, #f2f4ef, #f2f4ef,#f2f4ef); 
+}
+
+h2{
+    position: relative; 
+    color: #EFB730;
+    font-size: 70px;
+    text-shadow: 3px 3px 2px black;
+    margin-bottom: 100px;
+}
+
+.principal h3{
+    position: relative; 
+    color: #000;
+    font-size: 30px;
+    text-shadow: 3px 1px 1px #EFB730;
+}
+
+.principal{
+    width: 50%;
+    padding: 90px;
+    line-height: 35px;
+}
+
+.principal p{
+    font-size: 25px;
+}
+
+#titulo_2{
+    padding-right: 130px;
+}
+
+.principal li{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5%;
+    width: auto;
+    height: auto;
+}
+
+.moeda{
+    list-style-image: url('file:///C:/Users/leonardocd/Desktop/Site%20leo/img/coin.png');
+}
+
+.nota{
+    list-style-image: url('file:///C:/Users/leonardocd/Desktop/Site%20leo/img/dinheiro.png');
+}
+
+.diamante{
+    list-style-image: url('file:///C:/Users/leonardocd/Desktop/Site%20leo/img/diamante.png');
+}
+
+.citacao p{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+
+.citacao img{
+    text-align: left;
+}
+
+.vantagem{
+    float: left;
+    width: 45%;
+}
+
+.desvantagem{
+    float: right;
+    width: 45%;
+}
+
+#desvantagem{
+    float: right;
+    margin-left: 500px;
+    margin-top: -320px;
+}
+
+.atualizacao{
+    margin-top: 500px;
+}
+
+
+.pular{
+    margin-top: 650px;
+}
+
+.classificacao{
+    text-align: center;
+    margin-left: 500px;
+}
+
+.chave {
+    margin: -1300px 0 0 1500px;
+    background-color: #FAFAD2;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.chave hr{
+    border-color: black;
+}
+
+.botao{
+    background-color: #EFB730;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 5px 10px rgba(0,0,0,.6);
+}
+
+.botao:hover {
+    background-color: #45a049;
+    
+  }
+
+.petrobras{
+    font-size: 25px;
+    background-color: #EFB730;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    padding: 15px 25px;
+    margin-left: 30px;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 5px 10px rgba(0,0,0,.6);
+}
+
+.petrobras:hover {
+    background-color: #45a049;
+    
+  }
+
+.link-bonito {
+    background-color: #EFB730;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 5px 10px rgba(0,0,0,.6);
+
+  }
+  
+  .link-bonito:hover {
+    background-color: #45a049; 
+  }
+
+
+
+
+
+
